@@ -1,0 +1,16 @@
+{
+  "name": "whot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-node src/main.ts",
+    "test": "tsc src/test.ts",
+    "dev":"node src/test.js"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "tsc-node": "^0.0.3",
+    "typescript": "^5.7.2"
+  }
+}

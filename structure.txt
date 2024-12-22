@@ -1,0 +1,33 @@
+Entities:
+
+1. Cards [54 cards]
+  a. Circle [1,2,3,4,5,7,8,10,11,12,13,14]
+  b. Triangles [1,2,3,4,5,7,8,10,11,12,13,14]
+  c. Crosses [1,2,3,5,7,10,11,13,14]
+  d. Squares [1,2,3,5,7,10,11,13,14]
+  e. Stars  [1,2,3,4,5,7,8]
+  d. Whot card 5 [20]
+
+2. Player
+  a. HandCards
+  b. Turn
+  c. Can play
+3. Market
+  a. Takes the remainig cards
+4. Played cards
+  All played card stay here until the deck has 5 cards left
+  Return all except the top card to the deck
+
+
+
+5. Card:
+  a. has a shape and number
+  b. can be played [to the played card] or drawn from market [deck]
+
+6. Special cards:
+  1. Card with number 2    : The next player must pick 2 Cards from market ::: Can be defended with same card
+  2. Card with number 1    : [Hold on] everyone except the current player skips a turn
+  3. Card with number 14   : [General market] Everyone must pick a card from market except the current player
+  4. Card with number 8    : [Suspension] Skips the next player
+  5 Card with number 20    : [Whot] Can change to any Card the player wants and can be played if the user can play
+
